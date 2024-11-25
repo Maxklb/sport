@@ -1,0 +1,94 @@
+/* Style global */
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #FFFDF2;
+	color: #000000;
+}
+
+/* En-tête */
+header {
+	background-color: #FFFDF2;
+}
+
+.navbar {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 1.5em 6em;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.navbar ul {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar li {
+	margin-left: 20px;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #5A5A5A; /* Couleur de base */
+	font-weight: bold;
+	transition: color 0.3s ease, transform 0.3s ease; /* Transition fluide */
+}
+
+.navbar a:hover {
+	color: #000000; /* Couleur au survol */
+	transform: scale(1.05); /* Effet de zoom léger */
+	text-decoration: underline; /* Souligné au survol */
+}
+
+/* Icône panier */
+.cart-icon {
+	font-size: 1.2em; /* Taille de l'icône */
+	color: #5A5A5A; /* Couleur de l'icône */
+	text-decoration: none; /* Supprime la décoration du lien */
+	margin-left: 1em; /* Espacement entre l'icône et le texte précédent */
+	cursor: pointer; /* Changement du curseur au survol */
+	transition: color 0.3s ease, transform 0.3s ease; /* Animation fluide */
+	display: flex;
+	align-items: center;
+}
+
+.cart-icon:hover {
+	color: #000000; /* Couleur au survol */
+	transform: scale(1.05); /* Légère augmentation de taille */
+}
+
+/* Section principale */
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 40px 20px;
+	max-width: 1200px;
+	margin: 40px auto 0;
+}
+
+.logo {
+	max-width: 300px;
+	height: auto;
+	margin-top: -10px;
+}
+
+.hero-text {
+	max-width: 600px;
+}
+
+.hero-text h1 {
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+	text-align: center; /* Centrer le texte */
+}
+
+.hero-text p {
+	font-size: 1.2rem;
+	line-height: 1.6;
+	color: #5A5A5A;
+}
